@@ -1,0 +1,234 @@
+body {
+	color:  #383f4b;
+	width: 100vh;
+	height: 100vh;
+	background: #282828;
+}
+
+
+.block {
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	background: url(../img/mainbg.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%; left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.main {
+	position: absolute;
+	width: 685px;
+	height: 392px;
+	background: #111a28;
+	box-sizing: border-box;
+	border-radius: 10px;
+	top: 50%; left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.main__head {
+	padding: 25px 0 0 20px;
+}
+
+.main__boot {
+	padding: 70px 0 0 35px;
+}
+
+.main__price {
+	font-family: 'museo_sans_cyrl100' sans-serif;
+	font-weight: 100;
+	display: block;
+	width: 190px;
+	position: absolute;
+	right: 55px;
+	top: 0;
+	margin: 75px 0;
+	box-sizing: border-box;
+}
+
+.main__price--name {
+	font-size: 22px;
+	color: #fff;
+	text-align: left;
+	word-wrap: break-word;
+	width: 160px;
+	margin: 0;
+}
+
+.main__price--text {
+	margin-top: 16px;
+	font-size: 12px;
+	text-align: left;
+	width: 160px;
+	text-overflow: clip;
+  	overflow: hidden;
+  	white-space: nowrap;
+}
+
+.main__stars {
+	margin-top: 10px;
+	height: 15px;
+}
+
+.main__list--sp {
+	margin: 26px 0 0 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main__list--sp li {
+	display: inline-block;
+	border: 1px solid #383f4b;
+	width: 70px;
+	font-size: 13px;
+	padding:8px 0 8px 13px;
+	box-sizing: border-box;
+}
+
+.main__list--sp li:hover {
+	background: #202835;
+	color: #fff;
+}
+
+.main__bay {
+	margin-top: 27px;
+	border: 1px solid #383f4b;
+	text-align: center;
+	padding: 13px 53px;
+}
+
+.main__bay:hover {
+	background: #202835;
+	color: #fff;
+}
+
+.repeat__chek {
+	margin: 50px 0 20px 150px;
+}
+
+.repeat__chek-round {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #fff;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+	border: 2px solid #6d737b;
+}
+
+.repeat__chek--colorgrey {
+	background: #1f273f;
+}
+
+.repeat__chek--colorwhite {
+	background: #fff;
+}
+
+.repeat__chek--colorred {
+	background: #ed3333;
+}
+
+.repeat__chek--colorblue {
+	background: #29e3ea;
+}
+
+.repeat__chek li:hover {
+	-webkit-transform: scale(1.3);
+	   -moz-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	     -o-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+
+span {
+	margin-left: 10px;
+}
+
+
+
+
+
+/*sprite with stars
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background: url('http://positivecrash.com/wp-content/uploads/ico-s71a7fdede6.png') no-repeat;
+}
+
+#reviewStars-input {
+  
+  
+  overflow: hidden;
+  *zoom: 1;
+  
+  
+  position: relative;
+  float: left;
+}
+
+#reviewStars-input input {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  
+  width: 43px;
+  height: 40px;
+  
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+  background-position: 0 -40px;
+  height: 40px;
+  width: 43px;
+}
+
+#reviewStars-input label {
+  background-position: 0 0;
+  height: 40px;
+  width: 43px;
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+  
+  position: relative;
+  z-index: 1;
+}
+
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background-position: 0 -40px;
+  height: 40px;
+  width: 43px;
+}
+
+#reviewStars-input #star-0 {
+  left: 0px;
+}
+#reviewStars-input #star-1 {
+  left: 53px;
+}
+#reviewStars-input #star-2 {
+  left: 106px;
+}
+#reviewStars-input #star-3 {
+  left: 159px;
+}
+#reviewStars-input #star-4 {
+  left: 212px;
+}
+#reviewStars-input #star-5 {
+  left: 265px;
+}*/
